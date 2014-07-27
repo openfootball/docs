@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Using open football data: Get ready for the World Cup in Brazil 2014
+title: Using open football data - Get ready for the World Cup in Brazil 2014
 ---
 
 # {{ page.title }}
@@ -262,6 +262,7 @@ Wikipedia Source:
 
 ~~~
 ===Group A===
+{% raw %}
 {{{{main|2014 FIFA World Cup Group A}}}}
 {{{{Fb cl2 header navbar}}}}
 {{{{Fb cl2 team |t={{{{fb|BRA}}}} |w=0 |d=0 |l=0 |gf=0 |ga=0 |bc=}}}}
@@ -296,5 +297,6 @@ Wikipedia Source:
 |attendance=
 |referee=
 }}}}
+{% endraw %}
 ~~~
 
