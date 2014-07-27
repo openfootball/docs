@@ -1,4 +1,9 @@
-# Using the `football.db` HTTP JSON(P) API
+---
+layout: default
+title: Using the football.db HTTP JSON(P) API
+---
+
+# {{ page.title }}
 
 
 ## Examples

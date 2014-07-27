@@ -1,6 +1,10 @@
+---
+layout: default
+title: Export football.db tables to comma-separated values (CSV) files using SQLite tools
+---
 
 
-# Export `football.db` tables to comma-separated values (CSV) files using SQLite Studio
+# {{ page.title }}
 
 Use your SQLite tool of choice to export `football.db` tables to comma-separated values (CSV) files.
 Let's use SQLite Studio, as an example.

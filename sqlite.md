@@ -1,5 +1,10 @@
+---
+layout: default
+title: Using the football.db single-file SQLite database
+---
 
-# Using the `football.db` single-file SQLite database
+# {{ page.title }}
+
 
 Step 0: Get a copy from the [build releases](https://github.com/openfootball/build/releases) pages.
 
@@ -28,4 +33,5 @@ What is SQLite?
 
 
 Why use single-file SQLite 'binaries' instead of, for example, zip archives of data sets?
+
 

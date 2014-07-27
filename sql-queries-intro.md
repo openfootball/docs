@@ -1,4 +1,10 @@
-# Common football.db SQLite Queries
+---
+layout: default
+title: Common football.db SQLite Queries
+---
+
+# {{ page.title }}
+
 
 Example queries to get started with the football.db database.
 

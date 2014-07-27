@@ -1,6 +1,9 @@
+---
+layout: default
+title: Using open football data: Get ready for the World Cup in Brazil 2014
+---
 
-
-# Using open football data: Get ready for the World Cup in Brazil 2014.
+# {{ page.title }}
 
 
 Football is the world's most popular sport and
