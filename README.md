@@ -1,4 +1,4 @@
-docs
-====
+# docs
 
-Documentation includes Guides, Articles, Notes, etc.
+football.db documentation incl. notes, articles, tips, guides, etc.
+
