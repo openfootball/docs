@@ -1,3 +1,3 @@
 
-football.db documentation incl. notes, articles, tips, guides, etc.  -  [openfootball.github.io/docs](http://openfootball.github.io/docs)
+Open Football Data (football.db) Documentation incl. Notes, Articles, Tips, Guides, etc.  -  [openfootball.github.io/docs](http://openfootball.github.io/docs)
 
