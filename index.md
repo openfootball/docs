@@ -29,7 +29,6 @@ title: football.db Documentation
 
 ### Drafts, Work-in-Progress
 
-- [football.db Schema n Tables](schema.html)
 - [CSV (Comma-separated values) Export](csv-export.html)
 - [Using SQLite w/ football.db](sqlite.html)
 
