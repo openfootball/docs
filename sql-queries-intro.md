@@ -120,8 +120,8 @@ SELECT t1.title,
        t2.title, 
        g.*
   FROM games g
-       LEFT OUTER JOIN teams t1 ON t1.id = g.team1_id
-       LEFT OUTER JOIN teams t2 ON t2.id = g.team2_id
+       INNER JOIN teams t1 ON t1.id = g.team1_id
+       INNER JOIN teams t2 ON t2.id = g.team2_id
        INNER JOIN rounds r ON r.id = g.round_id
        INNER JOIN events e ON e.id = r.event_id
  WHERE e.key = 'world.2014'
