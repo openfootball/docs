@@ -1,11 +1,16 @@
-Note: The recommended and easiest way to build yourself
-your own database copies (e.g. football.db, worlcup.db, etc.)
-is using Datafiles. See the
-[`openfootball/datafile`](https://github.com/openfootball/datafile) repo
-for more info. To download and build all datasets from scratch, for example,
-use the `$ sportdb new max` command using
-the [`max.rb` Datafile](https://github.com/openfootball/datafile/blob/master/max.rb).
+> Note: The recommended and easiest way to build yourself
+> your own database copies (e.g. football.db, worlcup.db, etc.)
+> is using Datafiles. See the
+> [`openfootball/datafile`](https://github.com/openfootball/datafile) repo
+> for more info. To download and build all datasets from scratch, for example,
+> use the `$ sportdb new max` command using
+> the [`max.rb` Datafile](https://github.com/openfootball/datafile/blob/master/max.rb).
 
+
+
+Forked from original version/repo from
+[jokecamp/sportdb-build-scripts](https://github.com/jokecamp/sportdb-build-scripts)
+Thanks to Joe Kampschmidt!
 
 
 # Alternate way to build your own football.db sqlite database
@@ -293,4 +298,3 @@ Discuss and ask questions for project at [Google Groups][2]
 [4]: https://github.com/sportdb/sport.db.ruby
 [5]: https://github.com/openfootball/build
 [6]: https://github.com/openmundi/world.db
-
