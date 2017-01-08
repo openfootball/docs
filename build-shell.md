@@ -1,3 +1,9 @@
+---
+layout: default
+title: Alternate way to build your own football.db sqlite database
+---
+
+
 > Note: The recommended and easiest way to build yourself
 > your own database copies (e.g. football.db, worlcup.db, etc.)
 > is using Datafiles. See the
@@ -7,13 +13,12 @@
 > the [`max.rb` Datafile](https://github.com/openfootball/datafile/blob/master/max.rb).
 
 
-
 Forked from original version/repo from
 [jokecamp/sportdb-build-scripts](https://github.com/jokecamp/sportdb-build-scripts)
 Thanks to Joe Kampschmidt!
 
 
-# Alternate way to build your own football.db sqlite database
+# {{ page.title }}
 
 Below I will describe a set or procedures to generate your own database from scratch. I do not believe this is better than the [openfootball/build](https://github.com/openfootball/build) script but I believe it will help clarify any confusion for people that are unfamiliar with ruby and rake.
 

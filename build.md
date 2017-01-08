@@ -3,6 +3,15 @@ layout: default
 title: How to Build Your Own Copy
 ---
 
+> Note: The recommended and easiest way to build yourself
+> your own database copies (e.g. football.db, worlcup.db, etc.)
+> is using Datafiles. See the
+> [`openfootball/datafile`](https://github.com/openfootball/datafile) repo
+> for more info. To download and build all datasets from scratch, for example,
+> use the `$ sportdb new max` command using
+> the [`max.rb` Datafile](https://github.com/openfootball/datafile/blob/master/max.rb).
+
+
 # {{ page.title }}
 
 

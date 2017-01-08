@@ -11,6 +11,9 @@ title: football.db Documentation
 ### Build Your Copy - Build Scripts
 
 - [How to Build Your Own Copy](build.html)
+- [Create Your Own Simple Build Script (Rakefile) from Scratch](build-script.html)
+- [Alternate way to build your own football.db sqlite database](build-shell.html)
+
 
 
 ### Frequently Asked Questions (F.A.Q.) & Answers
