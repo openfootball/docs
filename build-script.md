@@ -22,7 +22,7 @@ to build your own `football.db` copy.
 
 Example - `Rakefile`:
 
-~~~
+```
 BUILD_DIR = "./build"
 
 FOOTBALL_DB_PATH = "#{BUILD_DIR}/football.db"
@@ -70,4 +70,4 @@ desc 'footballdb - build from scratch'
 task :build => [:clean, :create, :importworld, :importsport] do
   puts 'Done.'
 end
-~~~
+```

@@ -34,9 +34,9 @@ You have at least three options:
 
 Use the Ruby make build tool, that is, rake. Example:
 
-~~~
+```
 $ rake build DATA=en   # let's build all leagues n seasons for England
-~~~
+```
 
 See the [`/build` repo](https://github.com/openfootball/build) to get started.
 
@@ -47,9 +47,9 @@ See the [`/build` repo](https://github.com/openfootball/build) to get started.
 
 Use a shell script to build your own up-to-date `football.db` copy from the latest plain text datasets. Example:
 
-~~~
+```
 $ ./downloadAndBuild.sh
-~~~
+```
 
 See the [`/build-shell` repo](https://github.com/openfootball/build-shell) to get started.
 
@@ -70,15 +70,15 @@ Write your own build script from scratch. See the documentation to get started.
 If you get the error "sportdb: command not found" double check if you have the `sportdb` command line tool installed.
 Use the `gem` command; type:
 
-~~~
+```
 $ gem list sportdb
-~~~
+```
 
 If not listed install the gem; type:
 
-~~~
+```
 $ gem install sportdb
-~~~
+```
 
 {% include questions.md %}
 

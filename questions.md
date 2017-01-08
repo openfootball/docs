@@ -77,22 +77,22 @@ otherwise you may use a pull request).
 
 For example, to add the result for the Brazil vs Croatia match:
 
-~~~
-Thu Jun/12 17:00   Brazil  vs  Croatia 
-~~~
+```
+Thu Jun/12 17:00   Brazil  vs  Croatia
+```
 
 change the line to:
 
-~~~
+```
 Thu Jun/12 17:00   Brazil  3-1 (1-1)  Croatia
-~~~
+```
 
 Bonus: Let's add the goal getters too. Example:
 
-~~~
+```
 Thu Jun/12 17:00   Brazil  3-1 (1-1)  Croatia
                      [Neymar 29', 71' (pen.) Oscar 90+1';  Marcelo 11' (o.g.)]
-~~~
+```
 
 That's it.
 
@@ -104,15 +104,15 @@ That's it.
 
 A: That's the big plus using structured data. You can (auto-)calculate
 league standings using SQL queries and updates.
-Another big plus: Your standings will be always up-to-date (just recalculate - if out-of-date). 
+Another big plus: Your standings will be always up-to-date (just recalculate - if out-of-date).
 
 Note, you can use the built-in sportdb standing calculations. Still early and rough.
 For auto-calculating all league standings use, for example, in your build script:
 
-~~~
+```
 EventStanding.recalc!   # and for all groups
 GroupStanding.recalc!
-~~~
+```
 
 You can see the calc "engine" code here [\[1\]](https://github.com/sportdb/sport.db.ruby/blob/master/lib/sportdb/calc.rb).
 The "engine" calculates:
@@ -135,7 +135,7 @@ Standing tables in the sportdb schema include:
 
 For example, using the world cup datasets you can (auto-)calculate the all time standings:
 
-~~~
+```
  1  Brazil (BRA)                 97   67  15  15  210:88   216  19
  2  Germany (GER)                99   60  19  20  206:117  199  17
  3  Italy (ITA)                  80   44  21  15  126:74   153  17
@@ -147,7 +147,7 @@ For example, using the world cup datasets you can (auto-)calculate the all time 
  9  Uruguay (URU)                47   18  12  17   76:65    66  11
 10  Sweden (SWE)                 46   16  13  17   74:69    61  11
 ...
-~~~
+```
 
 
 ## Text Formtas (Match Schedule / Player / Squads Mini Languages)   {#formats}
@@ -159,7 +159,7 @@ comma-separated values or key-value pairs with some exceptions.
 
 The match schedules use a mini structured data language. Example:
 
-~~~
+```
 Group A    |  Brazil    Croatia       Mexico     Cameroon
 Group B    |  Spain     Netherlands   Chile      Australia
 ...
@@ -178,29 +178,29 @@ Final
 
 (64) Sun Jul/13 16:00  Germany  1-0 a.e.t. (0-0, 0-0)  Argentina  @ Estádio do Maracanã, Rio de Janeiro
                         [Mario Götze 113']
-~~~
+```
 
 
 The player documents use a mini structured data language. Example:
 
-~~~
+```
 Júlio César|Júlio César SOARES DE ESPINDOLA,     3 Sep 1979, 186
 T. Silva|Thiago SILVA|Thiago EMILIANO DA SILVA, 22 Sep 1984, 183
 David Luiz|David Luiz MOREIRA MARINHO,          22 Apr 1987, 189
 Marcelo|Marcelo VIEIRA DA SILVA JUNIOR,         12 May 1988, 174
 Dante|Dante BONFIM COSTA SANTOS,                18 Oct 1983, 188
-~~~
+```
 
 
 The squads / lineups documents use a mini structured data language. Example:
 
-~~~
+```
 (12)  GK  Júlio César           #  79, Toronto (CAN)
  (3)  DF  Thiago Silva          #  45, Paris Saint-Germain (FRA)
  (4)  DF  David Luiz            #  35, Chelsea (ENG)
  (6)  DF  Marcelo               #  30, Real Madrid (ESP)
 (13)  DF  Dante                 #  12, Bayern Munich (GER)
-~~~
+```
 
 Bonus Exercise: Try to write by hand the schedule for the English Premier League -
 week-by-week - 380 matches all together, for example?
@@ -241,7 +241,7 @@ Wikidata like the `football.db` uses "license-free" data, that is, data dedicate
 Thus, an idea (and goal) is to work on syncying the data
 (from Wikidata to `football.db` and from `football.db` to Wikidata).
 Still very early. If you're interested in making it happen or if you have any ideas, suggestions or insights,
-say hello on the [forum / mailing list](http://groups.google.com/group/opensport). 
+say hello on the [forum / mailing list](http://groups.google.com/group/opensport).
 
 
 
@@ -249,7 +249,7 @@ say hello on the [forum / mailing list](http://groups.google.com/group/opensport
 
 #### Q: How can I get datasets in JSON, CSV, SQL or _[your data format here]_?
 
-A: Get a copy of a pre-built database e.g. `football.db`, `worldcup.db` etc. 
+A: Get a copy of a pre-built database e.g. `football.db`, `worldcup.db` etc.
 It's a single-file SQLite database (working anywhere, that is, Windows, Mac, Linux, etc.).
 
 Option 1) No coding required. Use your SQLite tool of choice to export to CSV, JSON, SQL
@@ -267,10 +267,10 @@ Add Example Script in Ruby
 
 A: Load the datasets into your (SQL) database of choice e.g. PostgreSQL, MySQL, etc. and
 
-Option 1) use your database tool of choice to export to CSV, JSON, SQL 
+Option 1) use your database tool of choice to export to CSV, JSON, SQL
 or _[your data format here]_ etc. or
 
-Option 2) use your language of choice and wipe up some code to export to CSV, JSON 
+Option 2) use your language of choice and wipe up some code to export to CSV, JSON
 or _[your data format here]_ etc.  - Bonus: Share your code with the world.
 
 
@@ -285,7 +285,7 @@ You're free to use whatever you need - no questions asked, no rights reserved.
 If you're using the football.db datasets in your app, you're welcome to tell the world (on the [mailing list/forum](http://groups.google.com/group/opensport))
 and you get listed here:
 
-- [Major League Soccer Almanac](http://mls-almanac.herokuapp.com) - [(Source)](https://github.com/cecomp64/mls-almanac) query-able, historical data for Major League Soccer in the US and Canada by Carl-Erik Svensson 
+- [Major League Soccer Almanac](http://mls-almanac.herokuapp.com) - [(Source)](https://github.com/cecomp64/mls-almanac) query-able, historical data for Major League Soccer in the US and Canada by Carl-Erik Svensson
 
 <!--  no longer availabe?
 - [BITKUP.COM](http://bitkup.com) - new app for betting with Bitcoins on the Brazil's World Cup 2014 by Oriol Franquesa Cortés
