@@ -8,6 +8,15 @@ title: football.db Documentation
 ## Articles n Notes
 
 
+### Build Your Copy - Build Scripts
+
+- [How to Build Your Own Copy](build.html)
+
+
+### Frequently Asked Questions (F.A.Q.) & Answers
+
+
+
 ### Getting Started - Basics
 
 - [Intro - football.db - What? Why?](intro.html)
@@ -36,4 +45,3 @@ title: football.db Documentation
 ### Beyond / Alternatives
 
 - [Open Football Data n Schema Alternatives](alternatives.html)
-
