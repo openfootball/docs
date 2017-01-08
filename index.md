@@ -15,9 +15,9 @@ title: football.db Documentation
 - [Alternate way to build your own football.db sqlite database](build-shell.html)
 
 
+### Frequently Asked Questions and Answers (F.A.Q.)
 
-### Frequently Asked Questions (F.A.Q.) & Answers
-
+- [Frequently Asked Questions and Answers (F.A.Q.)](questions.html)
 
 
 ### Getting Started - Basics
