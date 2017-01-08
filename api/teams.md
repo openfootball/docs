@@ -1,4 +1,10 @@
-# Teams
+---
+layout: default
+title: Teams
+permalink: /json-api-teams.html
+---
+
+# {{ page.title }}
 
 ## GET teams for an event (league+season)
 
@@ -53,4 +59,3 @@ Results:
   ]
 }
 ```
-

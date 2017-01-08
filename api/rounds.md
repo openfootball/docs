@@ -1,4 +1,10 @@
-# Rounds
+---
+layout: default
+title: Rounds
+permalink: /json-api-rounds.html
+---
+
+# {{ page.title }}
 
 ## GET rounds for an event (league+season)
 
@@ -63,4 +69,3 @@ Results:
        "key":"at.2013/14","title":"Österr. Bundesliga 2013/14"}}]
 }
 ```
-

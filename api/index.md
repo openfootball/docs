@@ -1,10 +1,16 @@
-# The `football.db` HTTP JSON API
+---
+layout: default
+title: The `football.db` HTTP JSON API
+permalink: /json-api.html
+---
+
+# {{ page.title }}
 
 HTTP JSON APIs (Web Services) ready to use include:
 
-- [Teams](TEAMS.md)
-- [Rounds](ROUNDS.md)
-- [Games](GAMES.md)
+- [Teams](json-api-teams.html)
+- [Rounds](json-api-rounds.html)
+- [Games](json-api-games.html)
 
 
 ## Build Your Own HTTP JSON API - sportkit / sport.db.starter kits

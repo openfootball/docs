@@ -8,21 +8,31 @@ title: football.db Documentation
 ## Articles n Notes
 
 
-### Build Your Copy - Build Scripts
-
-- [How to Build Your Own Copy](build.html)
-- [Alternate way to build your own football.db sqlite database](build-shell.html)
-
-
-### Frequently Asked Questions and Answers (F.A.Q.)
-
-- [Frequently Asked Questions and Answers (F.A.Q.)](questions.html)
-
-
 ### Getting Started - Basics
 
 - [Intro - football.db - What? Why?](intro.html)
+- [Frequently Asked Questions and Answers (F.A.Q.)](questions.html)
+
+
+### Build Your Copy - Build Scripts
+
+- [How to Build Your Own Copy](build.html)
+- [Alternate Way to Build Your Own football.db SQLite Database](build-shell.html)
+
+
+###  Do-it-yourself - Code, Code, Code
+
+- [SQL Queries Examples](sql-queries-intro.html)
+- [Create Your Own Simple Build Script from Scratch](build-script.html)
+
+
+### HTTP JSON API - Web Services
+
 - [HTTP JSON API Intro](json-api-intro.html)
+- [HTTP JSON API Reference](json-api.html)
+  - [Teams](json-api-teams.html)
+  - [Rounds](json-api-rounds.html)
+  - [Games](json-api-games.html)
 
 
 ### Mini Data Language Formats (Drafts, Work-in-Progress)
@@ -31,11 +41,6 @@ title: football.db Documentation
 - [Football Player Mini Language Format](format-players.html)
 - [Football Squads / Rosters / Lineup Mini Language Format](format-squads.html)
 
-
-###  Do-it-yourself - Code, Code, Code
-
-- [SQL Queries Examples](sql-queries-intro.html)
-- [Create Your Own Simple Build Script from Scratch](build-script.html)
 
 
 ### Drafts, Work-in-Progress

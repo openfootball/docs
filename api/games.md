@@ -1,4 +1,11 @@
-# Games
+---
+layout: default
+title: Games
+permalink: /json-api-games.html
+---
+
+
+# {{ page.title }}
 
 ## GET games in a round for an event (league+season)
 
@@ -24,4 +31,3 @@ Results:
     {"team1_key":"chi","team1_title":"Chile","team1_code":"CHI","team2_key":"aus","team2_title":"Australia","team2_code":"AUS","play_at":"2014/06/13","score1":null,"score2":null,"score1ot":null,"score2ot":null,"score1p":null,"score2p":null}]
 }
 ```
-

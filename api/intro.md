@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Using the football.db HTTP JSON(P) API
+permalink: /json-api-intro.html
 ---
 
 # {{ page.title }}
@@ -38,7 +39,7 @@ title: Using the football.db HTTP JSON(P) API
 | Example                          |     |
 | -------------------------------- | --- |
 | `/event/world.2014/round/20`     | 20th Round (=> Final)    |
-| `/event/en.2012_13/round/4`      | 4th Round                | 
+| `/event/en.2012_13/round/4`      | 4th Round                |
 | `/event/en.2013_14/round/today`  | English Premier League 2013/14 - all games for today's round (or if no round scheduled for today the last one or if no last one the next upcoming one). |
 
 
@@ -54,7 +55,7 @@ request (using the JSONP technique):
     // Do something with the returned data
   }
 </script>
-    
+
 <script src="http://footballdb.herokuapp.com/api/event/en.2013_14/round/4?callback=handleGames"></script>
 ~~~
 
@@ -70,4 +71,3 @@ $.getJSON('http://footballdb.herokuapp.com/api/event/en.2013_14/round/4?callback
 Note: Add the `callback=?` query parameter to tell jQuery to use a cross-domain JSONP request.
 
 That's it.
-
