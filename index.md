@@ -24,7 +24,7 @@ title: football.db Documentation
 
 - [SQL Queries Examples](sql-queries-intro.html)
 - [Create Your Own Simple Build Script from Scratch](build-script.html)
-- [Using the football.db with Pyhton (and Django)](python.html)
+- [Using the football.db with Python (and Django)](python.html)
 
 
 ### HTTP JSON API - Web Services
