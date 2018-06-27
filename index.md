@@ -14,10 +14,16 @@ title: football.db Documentation
 - [Frequently Asked Questions and Answers (F.A.Q.)](questions.html)
 
 
+<!--
+
+ Please, use datafiles. Note: Hide / comment out old build script docu for now.
+
 ### Build Your Copy - Build Scripts
 
 - [How to Build Your Own Copy](build.html)
 - [Alternate Way to Build Your Own football.db SQLite Database](build-shell.html)
+
+-->
 
 
 ###  Do-it-yourself - Code, Code, Code
