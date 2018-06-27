@@ -35,24 +35,22 @@ Note: For now only some datasets (e.g. worldcup.db) have pre-built database rele
 #### Q: How can I get started building my own up-to-date copy using the latest datasets?
 
 A: The recommended quick starter way to build your own up-to-data (local) copy from the online datasets is using datafiles.
-See the [`/datafile` repo](https://github.com/openfootball/datafile) for examples. 
+See the [`/datafile` repo](https://github.com/openfootball/datafile) for ready-to-use quick starter datafile samples. 
 
-Datafile Example - All World Cups (from Uruguay 1930 to Russia 2018)
-
-To build a copy of all world cups use the [`worldcup.rb` datafile](https://github.com/openfootball/datafile/blob/master/worldcup.rb).
-Type:
+Let's build a copy of all world cups (from Uruguay 1930 to Russia 2018). Use the [`worldcup.rb` datafile](https://github.com/openfootball/datafile/blob/master/worldcup.rb). Type:
 
     $ sportdb new worldcup
     
 This command will run the following steps:
 
-- Step 1:  Download `worldcup2018.rb` Datafile (from GitHub) to your working folder as `./Datafile`
+- Step 1:  Download `worldcup.rb` Datafile (from GitHub) to your working folder as `./Datafile`
 - Step 2:  Run the `sportdb build` command
-    - Step 2.a:  Download all datasets listed in the `Datafile` as zip archives (from GitHub) to `./tmp`
-    - Step 2.b:  Create the "empty" database, that is, table structure, indexes, etc. (schema)
-    - Step 2.c:  Read in all datasets from the zip archives in `./tmp` (no need to unpack)
+  - Step 2.a:  Download all datasets listed in the `Datafile` as zip archives (from GitHub) to `./tmp`
+  - Step 2.b:  Create the "empty" database, that is, table structure, indexes, etc. (schema)
+  - Step 2.c:  Read in all datasets from the zip archives in `./tmp` (no need to unpack)
 
 That's it. Now you will have a new up-to-date single-file `sport.db` SQLite database in your working folder.
+
 
 <!--
 See the [How to Build Your Own Copy](http://openfootball.github.io/build.html) page
