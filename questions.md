@@ -73,15 +73,17 @@ it with the world?
 
 ## Real-Time Result / Score HTTP JSON API Web Services  {#services}
 
-#### Q: Is there any HTTP JSON API service to get live scores for _[your event here]_ e.g. the World Cup 2014 in Brazil, the English Premier League 2015/16, the Euro 2016 in France, etc.?
+#### Q: Is there any HTTP JSON API service to get live scores for _[your event here]_ e.g. the World Cup 2018 in Russia, the English Premier League 2018/19, the Euro 2020, etc.?
 
 A: `football.db` does **NOT OFFER ANY REAL-TIME LIVE** football results / scores services.
 
-However, you can run your own HTTP JSON API service.
-See the [`sport.db.starter` kits](https://github.com/sportkit) to get started, for example,
+However, you can run your own HTTP JSON API web service.
+See the [`sport.db.starter` kits](https://github.com/sportkit) to get started, for example.
+
+<!--
 or try the [example HTTP JSON API service running on Heroku](http://footballdb.herokuapp.com).
 (Note: The scores get updated once a day, that is, every 24 hours.)
-
+-->
 
 
 #### Q: What's the update frequency of the datasets?
@@ -250,11 +252,11 @@ The idea is to make it work like a wiki, that is, just plain old text documents 
 
 Why like a wiki?
 
-Question - What's the best source for open "unstructured" football information in the real world in 2014?
+Question - What's the best source for open "unstructured" football information in the real world in 2018?
 Of course, the Wikipedia! See, for example,
-the [World Cup 2014](http://en.wikipedia.org/wiki/2014_FIFA_World_Cup) page,
-the [World Cup 2014 squads](http://en.wikipedia.org/wiki/2014_FIFA_World_Cup_squads) page,
-or the [World Cup 2014 Qualifiers](http://en.wikipedia.org/wiki/2014_FIFA_World_Cup_qualification) page.
+the [World Cup 2018](http://en.wikipedia.org/wiki/2018_FIFA_World_Cup) page,
+the [World Cup 2018 squads](http://en.wikipedia.org/wiki/2018_FIFA_World_Cup_squads) page,
+or the [World Cup 2018 Qualifiers](http://en.wikipedia.org/wiki/2018_FIFA_World_Cup_qualification) page.
 
 Thus, the idea is - why not build on what works and build a wiki for "structured" data e.g.
 
