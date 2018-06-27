@@ -28,8 +28,7 @@ Contents:
 A: You can get (download) pre-built single-file SQLite databases copies (working anywhere, that is, Windows, Mac, Linux, etc.)
 on the releases page. For example, find the `worldcup.db` download at the [`/world-cup` Releases](https://github.com/openfootball/world-cup/releases) page.
 
-Note: For now only some datasets (e.g. worldcup.db) have pre-built database releases.
-
+Note: For now only some datasets (e.g. `worldcup.db`) have pre-built database releases.
 
 
 #### Q: How can I get started building my own up-to-date copy using the latest datasets?
