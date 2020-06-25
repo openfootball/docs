@@ -42,14 +42,6 @@ title: football.db Documentation
   - [Games](json-api-games.html)
 
 
-### Mini Data Language Formats (Drafts, Work-in-Progress)
-
-- [Football Match Schedule Mini Language Format](format-match-schedule.html)
-- [Football Player Mini Language Format](format-players.html)
-- [Football Squads / Rosters / Lineup Mini Language Format](format-squads.html)
-
-
-
 ### Drafts, Work-in-Progress
 
 - [CSV (Comma-separated values) Export](csv-export.html)
