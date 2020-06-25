@@ -5,13 +5,13 @@ title: football.db Documentation
 
 # {{ page.title }}
 
-## Articles n Notes
+## Articles 'n' Notes
 
 
 ### Getting Started - Basics
 
 - [Intro - football.db - What? Why?](intro.html)
-- [Frequently Asked Questions and Answers (F.A.Q.)](questions.html)
+- [Frequently Asked Questions and Answers (F.A.Q.)](https://github.com/openfootball/help)
 
 
 <!--
